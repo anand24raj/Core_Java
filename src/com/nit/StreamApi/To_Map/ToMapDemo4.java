@@ -22,7 +22,7 @@ public class ToMapDemo4
         Map<Integer, String> collect = listOfTrainers
                 .stream()
                 .collect(Collectors.toMap(Trainer::id,Trainer::name,
-                        (oldValue, newValue) -> newValue,LinkedHashMap::new )); // maintain insertion order
+                        (_, newValue) -> newValue,LinkedHashMap::new )); // maintain insertion order
 
         collect.forEach((k, v) -> IO.println(k + " : " + v));
     }

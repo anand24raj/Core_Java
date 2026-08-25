@@ -4,30 +4,26 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-record Products(Integer id, String name) {}
+record Products(Integer id, String name) {
+}
 
-public class ToMapDemo3Fix 
-{
-    public static void main(String[] args) 
-    {
+public class ToMapDemo3Fix {
+	public static void main(String[] args) {
 
-        Product p1 = new Product(111, "Camera");
-        Product p2 = new Product(222, "Laptop");
-        Product p3 = new Product(222, "Mobile");
+		Product p1 = new Product(111, "Camera");
+		Product p2 = new Product(222, "Laptop");
+		Product p3 = new Product(222, "Mobile");
 
-        ArrayList<Product> listOfProduct = new ArrayList<>();
-        listOfProduct.add(p1);
-        listOfProduct.add(p2);
-        listOfProduct.add(p3);
+		ArrayList<Product> listOfProduct = new ArrayList<>();
+		listOfProduct.add(p1);
+		listOfProduct.add(p2);
+		listOfProduct.add(p3);
 
-        Map<Integer, String> collect = listOfProduct
-                .stream()
-                .collect(Collectors.toMap(
-                        Product::id,
-                        Product::name,
-                        (oldValue, newValue) -> newValue // resolve duplicate
-                ));
+		Map<Integer, String> collect = listOfProduct.stream()
+				.collect(Collectors.toMap(Product::id, Product::name, (_, newValue) -> newValue // resolve
+																										// duplicate
+				));
 
-        IO.println(collect);
-    }
+		IO.println(collect);
+	}
 }

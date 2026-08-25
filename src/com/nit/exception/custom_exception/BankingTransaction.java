@@ -23,46 +23,31 @@ package com.nit.exception.custom_exception;
 
 import java.util.*;
 
-public class BankingTransaction 
-{
-    public static void main(String[] args) 
-    {
+public class BankingTransaction {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        try 
-        {
+        try {
             Integer balance = sc.nextInt();
-
-            if (balance == null) 
-            {
-                throw new NullPointerException();
-            }
-
             int withdraw = sc.nextInt();
 
-            if (withdraw > balance) 
-            {
+            if (withdraw > balance) {
                 throw new ArithmeticException();
             }
 
             balance = balance - withdraw;
             IO.println("Remaining balance: " + balance);
-
-        } 
-        catch (InputMismatchException e) 
-        {
+        }
+        catch (InputMismatchException e) {
             IO.println("Invalid input type");
-        } 
-        catch (ArithmeticException e) 
-        {
+        }
+        catch (ArithmeticException e) {
             IO.println("Insufficient funds");
-        } 
-        catch (NullPointerException e) 
-        {
+        }
+        catch (NullPointerException e) {
             IO.println("Account not found");
-        } 
-        finally 
-        {
+        }
+        finally {
             sc.close();
         }
     }

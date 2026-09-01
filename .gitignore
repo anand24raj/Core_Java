@@ -1,8 +1,54 @@
-# Java compiled files
+# Compiled Java files
 *.class
 
-# Eclipse files
+# Eclipse
 .classpath
 .project
 .settings/
+
+# Build output
 bin/
+target/
+out/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Java crash logs
+hs_err_pid*
+
+# Environment files
+.env
+.env.*
+
+# Backup files
+*.bak
+*.swp
+*.swo

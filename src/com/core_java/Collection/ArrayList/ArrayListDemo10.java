@@ -1,0 +1,33 @@
+package com.core_java.Collection.ArrayList;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo10 
+{
+    public static void main(String[] args) 
+    {
+        ArrayList<String> list = new ArrayList<>(100);
+
+        list.add("Java");
+        list.add("World");
+
+        // public void trimToSize()
+        list.trimToSize();
+
+        IO.println("Trimmed List Size: " + list.size());
+        IO.println(".........................");
+
+        ArrayList<Integer> listOfNumber = new ArrayList<>();
+
+        // public void ensureCapacity(int minCapacity)
+        // Increase the capacity of the ArrayList to avoid frequent resizing
+        listOfNumber.ensureCapacity(100);
+
+        for (int i = 0; i < 50; i++) 
+        {
+            listOfNumber.add(i);
+        }
+
+        IO.println("List size: " + listOfNumber.size());
+    }
+}

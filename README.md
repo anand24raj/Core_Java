@@ -1,27 +1,39 @@
-# ☕ Core Java & Advanced Java
+# ☕ Core Java
 
-A comprehensive collection of **Core Java and Advanced Java practice programs, coding problems, JDBC programs, Java 8+ features, multithreading examples, collections, OOP concepts, and mini projects**.
+A comprehensive collection of **Core Java concepts, examples, practice programs, coding problems, and interview-oriented implementations**.
 
-This repository was created as a practical learning repository while studying Java concepts from fundamentals to advanced topics.
+This repository contains practical Java programs that I have developed while learning and practicing Java from fundamentals to advanced Core Java concepts.
 
 ---
 
 ## 📚 About This Repository
 
-This repository contains Java programs organized topic-wise.
+The purpose of this repository is to learn Java concepts through **hands-on programming and practical examples**.
 
-The main purpose is to:
+It covers:
 
-* Understand Java concepts through practical examples
-* Practice Java programming
-* Strengthen Object-Oriented Programming concepts
-* Learn the Java Collections Framework
-* Improve problem-solving and coding skills
-* Understand JDBC and database connectivity
-* Practice Java 8+ features
-* Learn multithreading and concurrency
-* Build small Java-based applications
-* Prepare for Java developer interviews
+* Java Fundamentals
+* Object-Oriented Programming
+* Arrays
+* Strings
+* Object Class
+* Exception Handling
+* Generics
+* Collections Framework
+* Java 8 Features
+* Lambda Expressions
+* Functional Interfaces
+* Method References
+* Stream API
+* Multithreading
+* Input/Output
+* JVM concepts
+* Copy concepts
+* Inner Classes
+* Interfaces
+* Other Core Java concepts
+
+This repository is mainly focused on **learning, practice, revision, and interview preparation**.
 
 ---
 
@@ -29,18 +41,20 @@ The main purpose is to:
 
 ## 1. Java Fundamentals
 
-Programs related to basic Java concepts:
+Basic Java programming concepts:
 
 * Variables
-* Data types
+* Data Types
 * Operators
-* Conditional statements
+* Conditional Statements
 * Loops
 * Methods
 * Varargs
-* Command-line arguments
-* Type casting
-* Basic programming problems
+* Command-Line Arguments
+* Type Casting
+* `static`
+* `final`
+* Basic Programming Problems
 
 ---
 
@@ -50,17 +64,20 @@ Practical examples covering:
 
 * Classes and Objects
 * Constructors
+* Copy Constructor
 * Encapsulation
 * Inheritance
 * Polymorphism
-* Abstraction
-* Interfaces
 * Method Overloading
 * Method Overriding
-* `this` keyword
-* `super` keyword
+* Abstraction
+* Interfaces
+* `this` Keyword
+* `super` Keyword
 * Association
 * Aggregation
+* Factory Method
+* Covariant Return Type
 
 ---
 
@@ -68,48 +85,47 @@ Practical examples covering:
 
 Array-based programming practice:
 
-* One-dimensional arrays
-* Two-dimensional arrays
-* Jagged arrays
+* One-Dimensional Arrays
+* Two-Dimensional Arrays
+* Jagged Arrays
+* Array Traversal
 * Searching
 * Sorting
-* Finding minimum and maximum
-* Finding the second-largest element
-* Duplicate elements
-* Unique elements
-* Array merging
-* Array rotation
-* Moving zeroes
-* Matrix problems
+* Minimum and Maximum
+* Second Largest Element
+* Duplicate Elements
+* Unique Elements
+* Array Manipulation
+* Matrix Problems
+* Array Practice Problems
 
 ---
 
 ## 4. Strings
 
-String programming problems:
+String programming examples:
 
-* String manipulation
-* String comparison
-* String reversal
+* String Creation
+* String Comparison
+* String Immutability
+* String Manipulation
+* String Reversal
 * Palindrome
 * Anagram
-* Character frequency
-* Duplicate characters
-* Duplicate words
-* Vowel counting
-* Word counting
-* Longest word
-* Longest common prefix
-* String validation
-* Mobile number validation
-* Email validation
-* Regular expressions
+* Character Frequency
+* Duplicate Characters
+* Duplicate Words
+* Vowel Counting
+* Word Counting
+* String Validation
+* Regular Expressions
+* String Practice Problems
 
 ---
 
 ## 5. Object Class
 
-Programs demonstrating important methods of the `Object` class:
+Examples related to the Java `Object` class:
 
 * `toString()`
 * `equals()`
@@ -119,10 +135,10 @@ Programs demonstrating important methods of the `Object` class:
 
 Also includes examples related to:
 
-* `final`
-* Sealed classes
-* Object cloning
-* Shallow copy
+* Object Cloning
+* Shallow Copy
+* Deep Copy
+* `instanceof`
 
 ---
 
@@ -130,20 +146,33 @@ Also includes examples related to:
 
 Examples covering:
 
-* Exception basics
+* Exception Basics
 * `try`
 * `catch`
 * `finally`
 * `throw`
 * `throws`
-* Custom exceptions
-* Multiple catch blocks
-* Try-with-resources
-* Exception propagation
+* Multiple Catch
+* Custom Exceptions
+* Exception Propagation
+* Try-with-Resources
 
 ---
 
-## 7. Collections Framework
+## 7. Generics
+
+Examples covering:
+
+* Generic Classes
+* Generic Methods
+* Type Parameters
+* Generic Interfaces
+* Wildcards
+* Generic Collections
+
+---
+
+# 8. Collections Framework
 
 Practice programs covering the Java Collections Framework.
 
@@ -173,304 +202,244 @@ Practice programs covering the Java Collections Framework.
 * TreeMap
 * Hashtable
 
-### Concepts
+### Collection Concepts
 
-* Collection methods
-* Iteration
 * Iterator
 * ListIterator
 * Comparable
 * Comparator
 * Sorting
-* Duplicate handling
-* Hashing
+* Duplicate Handling
 * Ordering
-* Map operations
+* Collection Methods
+* Map Operations
+* Hashing
 
 ---
 
-## 8. Generics
+# 9. Java 8 Features
 
-Examples covering:
-
-* Generic classes
-* Generic methods
-* Type parameters
-* Wildcards
-* Generic collections
-
----
-
-## 9. Java 8+ Features
-
-Practical examples of modern Java features:
+Practical examples of Java 8 features:
 
 * Lambda Expressions
 * Functional Interfaces
 * Method References
 * Constructor References
-* Stream API
-* Optional
 * Predicate
 * Function
 * Consumer
 * Supplier
-* `map()`
-* `filter()`
-* `reduce()`
-* `flatMap()`
-* `collect()`
-* `toMap()`
-* `limit()`
-* `skip()`
-* `peek()`
-* `takeWhile()`
-* `dropWhile()`
+* Optional
+* Stream API
 
 ---
 
-## 10. Stream API
+# 10. Stream API
 
 Stream API practice includes:
 
-* Filtering data
-* Mapping data
-* Sorting
-* Finding unique elements
-* Finding prime numbers
-* Removing negative values
-* String processing
-* Converting collections
-* Flattening collections
-* Terminal operations
-* Intermediate operations
-* Optional with streams
+* `filter()`
+* `map()`
+* `flatMap()`
+* `sorted()`
+* `distinct()`
+* `limit()`
+* `skip()`
+* `peek()`
+* `reduce()`
+* `collect()`
+* `toMap()`
+* Terminal Operations
+* Intermediate Operations
+* Processing Collections
+* Finding and Filtering Data
 
 ---
 
-## 11. Multithreading
+# 11. Functional Programming
+
+Examples covering:
+
+* Functional Interfaces
+* Lambda Expressions
+* Predicate
+* Function
+* Consumer
+* Supplier
+* Method References
+* Constructor References
+
+---
+
+# 12. Multithreading
 
 Multithreading examples covering:
 
-* Thread creation
-* `Thread` class
+* Thread Creation
+* `Thread` Class
 * `Runnable`
-* Thread names
-* Thread priority
+* Thread Names
+* Thread Priority
 * `sleep()`
 * `join()`
 * `yield()`
-* Daemon threads
+* Daemon Threads
 * Synchronization
-* Method-level synchronization
-* Block-level synchronization
-* Static synchronization
-* Inter-thread communication
+* Synchronized Methods
+* Synchronized Blocks
+* Static Synchronization
+* Inter-Thread Communication
 * `wait()`
 * `notify()`
 * `notifyAll()`
 * Deadlock
 * Interrupt
 * `volatile`
-* Producer-Consumer problems
+* Producer-Consumer Problem
 
 ---
 
-## 12. JDBC
+# 13. Input / Output
 
-Advanced Java database programming using JDBC.
+Examples related to Java I/O:
 
-Examples include:
-
-* Database connection
-* Statement
-* PreparedStatement
-* CallableStatement
-* ResultSet
-* ResultSetMetaData
-* Creating schemas
-* Creating tables
-* Creating sequences
-* INSERT
-* UPDATE
-* DELETE
-* SELECT
-* Stored procedures
-* Functions
-* Cursors
-* Try-with-resources
-* Properties-file configuration
+* Input Streams
+* Output Streams
+* File Handling
+* Reading Data
+* Writing Data
+* Character Streams
+* Byte Streams
 
 ---
 
-## 13. Serialization
+# 14. Inner Classes
 
-Programs demonstrating:
+Examples covering:
 
-* Serialization
-* Deserialization
-* Object serialization
-* ArrayList serialization
-* Serializable objects
-
----
-
-## 14. Advanced Java
-
-Advanced Java examples include:
-
-* JDBC
-* Database programming
-* Dynamic class loading
-* Static class loading
-* ATM application
-* Custom exceptions
-* Database operations
+* Inner Classes
+* Static Nested Classes
+* Anonymous Inner Classes
+* Local Inner Classes
 
 ---
 
-# 🏧 Mini Projects
+# 15. JVM Concepts
 
-The repository also contains small practical applications and examples.
+Examples and learning material related to:
 
-## ATM Project
-
-Demonstrates:
-
-* ATM operations
-* Bank cards
-* Multiple bank implementations
-* Exception handling
-* Insufficient funds handling
-* Negative amount validation
-
-## Railway Reservation / Multithreading
-
-Demonstrates:
-
-* Threads
-* Synchronization
-* Shared resources
-* Concurrent reservation handling
-
-## Other OOP Examples
-
-Examples include:
-
-* Vehicle Management
-* Product Store
-* Order System
-* Employee Management
-* Banking examples
-* Student examples
-* Food ordering examples
+* JVM
+* JRE
+* JDK
+* Class Loading
+* Memory Concepts
+* Runtime Execution
 
 ---
 
-# 🗂️ Project Structure
+# 📂 Project Structure
 
 ```text
-Core_java_NIT
+Core_Java/
 │
-├── src
-│   ├── com
-│   │   ├── adv_java
-│   │   │   ├── api
-│   │   │   ├── atm_project
-│   │   │   └── jdbc
-│   │   │
-│   │   └── nit
-│   │       ├── abstraction
-│   │       ├── aggregation
-│   │       ├── anonymous
-│   │       ├── Array
-│   │       ├── Collections
-│   │       ├── Exception
-│   │       ├── Generics
-│   │       ├── Multithreading
-│   │       ├── numbers
-│   │       ├── objectclass
-│   │       ├── oops
-│   │       ├── polymorphism
-│   │       ├── StreamApi
-│   │       ├── String
-│   │       ├── String2
-│   │       └── ...
+├── src/
+│   ├── module-info.java
 │   │
-│   ├── CommandLine.java
-│   ├── ElectricityBill.java
-│   ├── KeyEquality.java
-│   ├── ProducerConsumerEgg.java
-│   └── VarArgs.java
+│   └── com/
+│       └── core_java/
+│           │
+│           ├── Api_Method_Reference/
+│           ├── Array/
+│           ├── Array_new/
+│           ├── Collection/
+│           ├── InputOutput/
+│           ├── Java8/
+│           ├── Multithreading/
+│           ├── StreamApi/
+│           ├── String/
+│           ├── String_new/
+│           ├── aggregation/
+│           ├── anonymous/
+│           ├── constructor/
+│           ├── copy_constructor/
+│           ├── deep_copy/
+│           ├── exception/
+│           ├── factory_method/
+│           ├── functionalinterface/
+│           ├── generics/
+│           ├── inner_class/
+│           ├── interfaces/
+│           ├── java_8_features/
+│           ├── lambda/
+│           ├── numbers/
+│           ├── objectclass/
+│           ├── oops/
+│           ├── practice/
+│           ├── shallow_copy/
+│           ├── static_method/
+│           └── variable_shadow/
 │
+├── .gitignore
+├── .classpath
+├── .project
 └── README.md
 ```
 
 ---
 
-# 🛠️ Technologies
+# 🛠️ Technologies & Tools
 
 * **Java**
 * **Core Java**
-* **Advanced Java**
-* **JDBC**
-* **SQL**
-* **Oracle Database**
-* **Java Collections Framework**
+* **Java 8+**
+* **Collections Framework**
 * **Stream API**
 * **Multithreading**
 * **Eclipse IDE**
-* **Git & GitHub**
+* **Git**
+* **GitHub**
 
 ---
 
 # ▶️ How to Run
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/anand24raj/Core_Java-and-Advance_java.git
+git clone https://github.com/anand24raj/Core_Java.git
 ```
 
-## 2. Open in Eclipse
+### 2. Open in Eclipse
 
-Import the repository as an existing Eclipse Java project.
+Import the repository as an **Existing Java Project**.
 
-## 3. Select a Program
-
-Navigate to:
+### 3. Navigate to
 
 ```text
-src/com/nit/
+src/com/core_java/
 ```
 
-or:
+### 4. Select a Java Program
 
-```text
-src/com/adv_java/
+Choose a class containing:
+
+```java
+public static void main(String[] args)
 ```
 
-## 4. Run the Java Class
+### 5. Run
 
-Find a class containing the `main()` method.
-
-Then:
+Right-click the Java class:
 
 ```text
-Right Click
-    ↓
 Run As
-    ↓
+   ↓
 Java Application
 ```
-
-> **Note:** JDBC programs may require database configuration, JDBC drivers, and valid database credentials before they can be executed.
 
 ---
 
 # 🎯 Learning Path
-
-A recommended learning path through this repository:
 
 ```text
 Java Fundamentals
@@ -481,67 +450,47 @@ Arrays & Strings
        ↓
 Exception Handling
        ↓
-Collections
-       ↓
 Generics
        ↓
-Java 8+
+Collections
+       ↓
+Java 8 Features
+       ↓
+Lambda & Functional Interfaces
        ↓
 Stream API
        ↓
 Multithreading
        ↓
-Serialization
+Input / Output
        ↓
-JDBC
-       ↓
-Advanced Java
-       ↓
-Mini Projects
+Practice Problems
 ```
 
 ---
 
 # 🎓 Learning Goals
 
-This repository focuses on developing strong Java fundamentals and practical programming skills.
+The major goals of this repository are:
 
-The major goals are:
-
-* Build a strong foundation in Java
-* Understand OOP deeply
-* Practice Java coding problems
-* Learn collections and generics
-* Understand functional programming with Java 8+
+* Build strong Core Java fundamentals
+* Understand OOP concepts deeply
+* Improve Java programming skills
+* Practice coding problems
+* Understand Collections Framework
+* Learn Java 8 features
+* Understand Stream API
 * Learn multithreading and concurrency
-* Work with databases using JDBC
-* Build practical Java applications
-* Develop skills useful for Java developer interviews
+* Improve problem-solving ability
+* Prepare for Java developer interviews
 
 ---
 
 # 📌 Repository Type
 
-This is primarily a **learning and practice repository**.
+This is primarily a **Java learning and practice repository**.
 
-The programs are intentionally organized as individual examples so that each Java concept can be studied, modified, and executed independently.
-
----
-
-# 🤝 Contributing
-
-This repository is mainly maintained as a personal learning and practice repository.
-
-However, suggestions, improvements, bug fixes, and additional examples are welcome.
-
-If you would like to contribute:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit your changes
-5. Push the branch
-6. Open a Pull Request
+The programs are organized topic-wise so that individual concepts can be studied, modified, and executed independently.
 
 ---
 
@@ -553,7 +502,7 @@ MCA | Java Developer
 
 ### GitHub
 
-https://github.com/anand24raj
+[Anand Raj on GitHub]([https://github.com/anand24raj?](https://github.com/anand24raj/Core_Java))
 
 ---
 

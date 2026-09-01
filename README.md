@@ -502,7 +502,7 @@ MCA | Java Developer
 
 ### GitHub
 
-[Anand Raj on GitHub]([https://github.com/anand24raj?](https://github.com/anand24raj/Core_Java))
+[Anand Raj on GitHub](https://github.com/anand24raj/Core_Java)
 
 ---
 

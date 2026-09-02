@@ -500,10 +500,6 @@ The programs are organized topic-wise so that individual concepts can be studied
 
 MCA | Java Developer
 
-### GitHub
-
-[Anand Raj on GitHub](https://github.com/anand24raj/Core_Java)
-
 ---
 
 ⭐ If you find this repository useful for learning Java, consider giving it a **star**.
